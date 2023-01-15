@@ -220,7 +220,7 @@
     "8443a2e1-0715-49c7-b28b-a4c50d428753": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if products.collection == \"Sample collection\" %}\n\nThis product is i Sample collection\n{% endif %}",
+        "custom_liquid": "{% if collection == \"Sample collection\" %}\n\nThis product is i Sample collection\n{% endif %}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
